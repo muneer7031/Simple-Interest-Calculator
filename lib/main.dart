@@ -208,7 +208,7 @@ class _SIcalc extends State<SIcalc>{
     double roi = double.parse(rController.text);
     double time = double.parse(tController.text);
     double si = principal+(principal*roi*time)/100;
-    String Result="After $roi years, the amount will be $si $_currd";
+    String Result= "After $roi years, the amount will be $si $_currd";
     return Result;
   }
   void resetFunc(){
