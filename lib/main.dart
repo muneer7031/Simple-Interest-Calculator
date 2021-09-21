@@ -3,7 +3,7 @@ void main(){
   runApp(MaterialApp(debugShowCheckedModeBanner: false,
       title:"SI CALCULATOR",
       theme: ThemeData(
-        accentColor: Colors.yellowAccent,
+        // accentColor: Colors.yellowAccent,
             primaryColor: Colors.indigo,
           textSelectionTheme: TextSelectionThemeData(cursorColor:Colors.red ) ,
         brightness: Brightness.dark
